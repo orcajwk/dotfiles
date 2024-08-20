@@ -1,0 +1,8 @@
+[includeIf "gitdir:~/Desktop/things/githubs/jackmappotion/"]
+    path = ~/Desktop/things/githubs/jackmappotion/.gitconfig
+
+[includeIf "gitdir:~/Desktop/things/githubs/orcajwk/"]
+    path = ~/Desktop/things/githubs/orcajwk/.gitconfig
+
+[init]
+	defaultBranch = main
