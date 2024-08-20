@@ -1,0 +1,48 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    
+    // FONT
+    "editor.fontFamily": "MesloLGS NF",
+    "editor.fontSize": 14,
+    "editor.minimap.sectionHeaderFontSize": 14,
+    "debug.console.fontSize": 14,
+    "scm.inputFontSize": 14,
+    "terminal.integrated.fontSize": 14,
+    "chat.editor.fontSize": 14,    
+
+    // WORKBENCH
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "bottom",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Solarized Dark",
+    "workbench.startupEditor": "none",
+    
+    // COLORS
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#0080ffa0",
+    },
+    "editor.tokenColorCustomizations": {
+        "comments": "#00ff00a0",
+    },
+    
+    // TERMINAL
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.inheritEnv": false,
+
+    // PYTHON
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+    },
+
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none",
+        "reportMissingModuleSource": "none",
+        // "reportUndefinedVariable": "none",
+    },
+    "black-formatter.args": [
+        "--skip-string-normalization",
+        "--line-length",
+        "100"
+    ],
+    "window.zoomLevel": 1,
+}
